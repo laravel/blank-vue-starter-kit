@@ -6,6 +6,9 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/resources/js/wayfinder
+/resources/js/routes
+/resources/js/actions
 /vendor
 .env
 .env.backup
