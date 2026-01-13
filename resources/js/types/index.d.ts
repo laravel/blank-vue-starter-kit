@@ -6,7 +6,7 @@ export type AppPageProps<T extends Record<string, unknown> = Record<string, unkn
     name: string;
     auth: Auth;
     [key: string]: unknown;
-}
+};
 
 export interface User {
     id: number;
