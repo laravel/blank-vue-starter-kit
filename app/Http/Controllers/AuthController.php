@@ -39,20 +39,6 @@ class AuthController extends Controller
         return redirect()->intended('/dashboard');
     }
 
-    //public function logout(Request $request)
-    //{
-    //    Auth::logout();
-//
-    //    $request->session()->invalidate();
-    //    $request->session()->regenerateToken();
-//
-    //    // Also log out from Authentik
-    //    $logoutUrl = config('services.authentik.base_url')
-    //        .'/application/o/'.config('services.authentik.slug').'/end-session/';
-//
-    //    return redirect($logoutUrl.'?redirect_uri='.urlencode(config('app.url')));
-    //}
-
     public function logout(Request $request)
     {
         Auth::logout();
